@@ -5,4 +5,4 @@ From tomcat:latest
 MAINTAINER "IMSS" 
 
 # copy war file on to container 
-COPY ./target/hello-1.0.war /opt/tomcat/webapps/
+COPY ./target/hello-1.0.war /usr/local/tomcat/webapps/
